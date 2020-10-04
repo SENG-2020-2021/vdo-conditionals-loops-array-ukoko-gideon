@@ -31,7 +31,7 @@ class Main {
         System.out.println("The number of days the debtor paid for is: " + daysPaid);
 
         for ( x = 0; x < daysDefaultedNo && x < daysPaid; x++){
-            System.out.println("day " + daysDefaulted[x] + " wasn't paid for");
+            System.out.println("day " + daysDefaulted[x] + " has been paid for");
         }
         
         if (amountPaid % amountToPayPerDay > 0){
